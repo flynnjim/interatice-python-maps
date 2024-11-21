@@ -5,3 +5,5 @@ ComArea_ACS14_f.shx
 nrw_ph2_low_heath_veg.csv
 interactive_map_output.html
 map_output.html
+interactive_map_with_bbox.html
+interactive_map_with_vegetation_bbox.html
