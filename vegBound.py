@@ -34,7 +34,7 @@ bbox_gdf = gpd.GeoDataFrame(geometry=[bounding_box], crs='EPSG:4326')
 # Filter the GeoDataFrame using the bounding box to keep only vegetation polygons within the bounds
 gdf_filtered = gdf[gdf.intersects(bbox_gdf.geometry[0])]
 
-# Filter the GeoDataFrame to remove geom from displayed data
+# Filter the GeoDataFrame to remove geometry from displayed
 gdf_filtered = gdf_filtered.drop(columns=['geom'])
 
 # Check the filtered data (make sure it's correct)
