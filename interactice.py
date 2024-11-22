@@ -11,7 +11,7 @@ print(file.head())
 print(file.columns)
 
 
-m = file.explore('Property Crime', tiles="Stamen Terrain")
+m = file.explore('Property Crime')
 m.save('map_output.html')
 
 print("Map saved as 'map_output.html'. Open this file in a web browser to view the map.")
