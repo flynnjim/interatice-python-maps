@@ -10,3 +10,5 @@ interactive_map_with_vegetation_bbox.html
 .DS_Store
 110m_cultural/
 earthquakes.csv
+earthquake_distribution_map.html
+interactive_earthquake_map.html
