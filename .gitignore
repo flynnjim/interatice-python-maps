@@ -8,3 +8,5 @@ map_output.html
 interactive_map_with_bbox.html
 interactive_map_with_vegetation_bbox.html
 .DS_Store
+110m_cultural/
+earthquakes.csv
